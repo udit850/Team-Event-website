@@ -1,0 +1,312 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.main{
+	height:auto;
+	width:100%;
+
+}
+.menu{
+	height:auto;
+	width:100%;
+	float:left;
+	position:sticky;
+	z-index:9999;
+	top:0px;
+	background-color:white;
+}
+
+.menu .logo{
+	height:40px;
+	width:40px;
+	border-radius:50%;
+	margin-top:-10px;
+}
+.menu .menu_bar{
+	box-shadow:0px 0px 10px 0px lightgrey;
+}
+
+@media(max-width:667px){
+	.positionabsolute11{
+        position:absolute;
+        top:80px;
+        right:5%;
+	}
+}
+.slider{
+	background-color:#F8F5F5;
+}
+.slider_circle{
+	height:50px;
+	width:170px;
+	background-color:#EFE9E8;
+	border-radius:30px;
+}
+.slider h3{
+   color:#427A79;
+   margin-top:-40px;
+   margin-left:50px;
+}
+@media(max-width:667px){
+	.slider_circle{
+		margin-left:140px;
+	}
+	.slider{
+		height:1500px;
+		background-color:;
+	}
+	.slider h3{
+   margin-left:190px;
+  }
+}
+.slider_circle i , .slider_circle span{
+   margin:15px;
+   color:#427A79;
+}
+
+ 
+.ani_box{
+	height:140px;
+	width:20%;
+	float:left;
+	background-color:white;
+	border-radius:10px;
+	position:absolute;
+	margin-top:370px;
+	margin-left:950px;
+ animation-name:ani;
+ animation-duration:3s;
+ animation-iteration-count:infinite;
+}
+@keyframes ani{
+	0%{left:0px; top:0px;}
+	50%{left:0px; top:-7px;}
+  100%{left:0px; top:7px;}
+}
+.ani_box ul li{
+	height:35px;
+	width:35px;
+	border-radius:50%;
+	background-color:red;
+	margin-top:20px;
+	margin-left:-10px;
+	list-style-type:none;
+	display:inline-block;
+}
+.ani_box ul li img{
+   height:100%;
+	width:100%;
+	border-radius:50%;
+}
+.ani_box p{
+	margin-top:-5px;
+	font-size:15px;
+	text-align:center;
+}
+@media(max-width:667px){
+	.ani_box{
+		display:none;
+		height:auto;
+		width:90%;
+    float:left;
+		margin-top:0px;
+	  margin-left:0px;
+	  position:none;
+	  margin-left:5%;
+	  margin-top:860px;
+	}
+}
+ .b-1{
+		box-shadow:0px 0px 10px 0px lightgrey;
+		background-color:white;
+}
+.button{
+	height:60px;
+	width:60px;
+	border-radius:50%;
+	background-color:#F5F1F0;
+}
+.button:hover{
+	background-color:darkgreen;
+	color:white;
+}
+.box1{
+	background-color:;
+}
+ 
+/* About Us*/
+
+.card1{
+   margin-left:80px;
+   margin-right:100px;
+}
+.about-img1{
+	height:400px;
+	width:110%;
+	margin-left:60px;
+}
+.about-img2{
+	margin-top:-300px;
+	position:relative;
+}
+.about-img2 .card{
+	border:7px solid white;
+	box-sizing:border-box;
+	margin-left:50px;
+}
+@media(max-width:667px){
+	.about-img1{
+		width:100%;
+		margin-left:0px;
+	}
+	.about-img2{
+	   position:static;
+	   margin-top:0px;
+   }
+   .card1{
+    margin-left:0px;
+    margin-right:0px;
+   }
+  
+   .about-img2 .card{
+   	margin-left:0px;
+   	width:100%;
+   }
+}
+.facility .b1{
+	background-color:#FDEDED;
+}
+.facility .b1 i{
+	color:#F28484;
+}
+.rotate_icon{
+	height:60px;
+	width:60px;
+	background-color:#F5F1F0;
+	border-radius:50%;
+	margin-top:60px;
+}
+.sec_4 .img{
+	margin-top:200px;
+}
+.contain1{
+	text-align:right;
+}
+.dream{
+	background-color:#427A79;
+}
+@media(max-width:667px){
+	.rotate_icon{
+		margin-left:200px;
+		margin-top:0px;
+		margin-top:5px;
+	}
+	.sec_4 .img{
+	margin-top:30px;
+   }
+	.contain1{
+		text-align:center;
+	}
+	.contain2{
+		text-align:center;
+	}
+}
+     /testimonials/
+
+.testimonials{
+background-color:#E0EBEB;
+}
+.testimonials .header .line{
+	height:3px;
+	width:5%;
+	background-color:#427A79;
+   margin-left:530px;
+}
+.testimonials .img{
+	height:100px;
+	width:100px;
+	float:left;
+	background-color:#E0EBEB;
+	border-radius:50%;
+}
+.testimonials .img img{
+	height:90px;
+	width:90%;
+	border-radius:50%;
+	margin:5px;
+}
+.testimonials .name p {
+  margin-top:-5px;
+}
+.testimonials .name  i{
+  position:relative;
+  margin-left:5px;
+}
+.testimonials .text p{
+  font-size:17px;
+  line-height:28px;
+}
+.testimonials .text i{
+	font-size:22px;
+	color:#BCA5A0;
+}
+
+/services/
+
+.service .img1 {
+	height:60px;
+	width:60px;
+	float:left;
+	background-color:#F1EDEC;
+	border-radius:10%;
+}
+.service .img1 i{
+	font-size:30px;
+	margin:15px;
+	color:#427A79;
+}
+.service .img1:hover {
+	background-color:darkgreen;
+	color:white;
+	margin-left: 10px;
+}
+.service .img1 i{
+	font-size:30px;
+	margin:15px;
+	color:#427A79;
+}
+.service .img1 i:hover{
+	color:white;
+}
+
+/contact/
+
+.contact{
+	background-color:#427A79;
+}
+.contact .img{
+	height:55px;
+	width:55px;
+	float:left;
+	background-color:#5E8E8D;
+	border-radius:50%;
+}
+.contact .img img{
+	height:90px;
+	width:90%;
+	border-radius:50%;
+	margin:5px;
+}
+.contact .name p {
+  margin-top:-5px;
+}
+.contact .name  i{
+  position:relative;
+  margin-left:5px;
+}
+
+/footer/
+.footer ul{
+  display:inline-block;
+}
